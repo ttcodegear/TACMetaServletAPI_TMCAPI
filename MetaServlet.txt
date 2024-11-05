@@ -1,0 +1,8 @@
+./MetaServletCaller.sh --tac-url http://localhost:8080/org.talend.administrator-8.0.1 --json-params "{\"actionName\": \"taskLog\",\"authPass\": \"admin\",\"authUser\": \"security@company.com\",\"lastExecution\": false,\"taskId\": 1}"
+
+http://192.168.149.136:8080/org.talend.administrator-8.0.1/metaServlet?eyJhY3Rpb25OYW1lIjogInRhc2tMb2ciLCJhdXRoUGFzcyI6ICJhZG1pbiIsImF1dGhVc2VyIjogInNlY3VyaXR5QGNvbXBhbnkuY29tIiwibGFzdEV4ZWN1dGlvbiI6IGZhbHNlLCJ0YXNrSWQiOiAxfQ==
+
+
+./MetaServletCaller.sh --tac-url http://localhost:8080/org.talend.administrator-8.0.1 --json-params "{\"actionName\": \"taskLog\",\"authPass\": \"admin\",\"authUser\": \"security@company.com\",\"endTime\": \"2024-10-23 16:50:52\",\"lastExecution\": false,\"startTime\": \"2024-10-23 16:49:17\",\"taskId\": 1}"
+
+http://192.168.149.136:8080/org.talend.administrator-8.0.1/metaServlet?eyJhY3Rpb25OYW1lIjogInRhc2tMb2ciLCJhdXRoUGFzcyI6ICJhZG1pbiIsImF1dGhVc2VyIjogInNlY3VyaXR5QGNvbXBhbnkuY29tIiwiZW5kVGltZSI6ICIyMDI0LTEwLTIzIDE2OjUwOjUyIiwibGFzdEV4ZWN1dGlvbiI6IGZhbHNlLCJzdGFydFRpbWUiOiAiMjAyNC0xMC0yMyAxNjo0OToxNyIsInRhc2tJZCI6IDF9
